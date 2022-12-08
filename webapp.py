@@ -173,7 +173,7 @@ components.html("""
     </div>
   </div>
 </div>
-""", height=1000)
+""", height=1500)
             
 
   
