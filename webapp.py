@@ -10,6 +10,7 @@ from tensorflow.keras.preprocessing import image
 import streamlit.components.v1 as components
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
+#st.set_page_config(layout="wide")
 @st.cache(allow_output_mutation=True)
 
 def loading_model():
@@ -87,22 +88,25 @@ else:
 st.markdown("""
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+<style>
+  .bg-custom{ background-color:#E4E6E6  !important;}
+</style>
 <hr>
 <p class="text-center h1">ABOUT US</p>
 <div class="col-12" style="backgournd:rgb(14, 17, 23)">
   <div class="row justify-content-center">
     <div class="col-5 col-sm-12 col-lg-5 col-xl-5 mt-4">
       <div class="col-12 justify-content-center text-center">
-        <div class="card bg-primary">
+        <div class="card bg-custom">
           <div class="card-header">
             <img src="https://i.imgur.com/WIXgRHw.jpg" class="rounded-circle" height="100px" width="100"/>
           </div>
           <div class="card-body">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote class="blockquote text-dark">
                 <p>Setiap perjuangan pasti ada pengorbanan.</p>
               </blockquote>
-              <figcaption class="blockquote-footer text-white">
+              <figcaption class="blockquote-footer text-dark">
                 Raditya Putra Prayoga <cite title="Source Title">Universitas Pembangunan Nasional "Veteran" Jawa Timur - Teknik Industri</cite>
               </figcaption>
             </figure>
@@ -112,16 +116,16 @@ st.markdown("""
     </div>
     <div class="col-5 col-sm-12 col-lg-5 col-xl-5 mt-4">
       <div class="col-12 justify-content-center text-center">
-        <div class="card bg-danger">
+        <div class="card bg-custom">
           <div class="card-header">
             <img src="https://i.imgur.com/gXck5uS.jpg" class="rounded-circle" height="100px" width="100"/>
           </div>
           <div class="card-body">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote class="blockquote  text-dark">
                 <p>Sesuatu yang membuat anda untuk menunda pekerjaan, itu bukan karena malas. Tapi karena anda menganggap hal itu sudah tidak penting.</p>
               </blockquote>
-              <figcaption class="blockquote-footer text-white">
+              <figcaption class="blockquote-footer text-dark">
                 Firman Mulyadi <cite title="Source Title">Universitas Merdeka Madiun  - Manajemen Informatika</cite>
               </figcaption>
             </figure>
@@ -131,16 +135,16 @@ st.markdown("""
     </div>
     <div class="col-5 col-sm-12 col-lg-5 col-xl-5 mt-4">
       <div class="col-12 justify-content-center text-center">
-        <div class="card bg-danger">
+        <div class="card bg-custom">
           <div class="card-header">
             <img src="https://i.imgur.com/5ZI4Hdy.jpg" class="rounded-circle" height="100px" width="100"/>
           </div>
           <div class="card-body">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote class="blockquote text-dark">
                 <p>The result is right for time and become a reality in its sweetest form.</p>
               </blockquote>
-              <figcaption class="blockquote-footer text-white">
+              <figcaption class="blockquote-footer text-dark">
                 Emmanuela Aurelia Rachel Passa <cite title="Source Title">UUniversitas Airlangga - Teknik Biomedis</cite>
               </figcaption>
             </figure>
@@ -150,16 +154,16 @@ st.markdown("""
     </div>
     <div class="col-5 col-sm-12 col-lg-5 col-xl-5 mt-4">
       <div class="col-12 justify-content-center text-center">
-        <div class="card bg-primary">
+        <div class="card bg-custom">
           <div class="card-header">
             <img src="https://i.imgur.com/hPhR4Xu.jpg" class="rounded-circle" height="100px" width="100"/>
           </div>
           <div class="card-body">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote class="blockquote text-dark">
                 <p>Kita tidak akan pernah tau hasilnya jika kita tidak pernah mencoba.</p>
               </blockquote>
-              <figcaption class="blockquote-footer text-white">
+              <figcaption class="blockquote-footer text-dark">
                 Izati Nuramadanti <cite title="Source Title">Universitas Alma Ata Yogyakarta - Informatika</cite>
               </figcaption>
             </figure>
@@ -169,16 +173,16 @@ st.markdown("""
     </div>
     <div class="col-5 col-sm-12 col-lg-5 col-xl-5 mt-4">
       <div class="col-12 justify-content-center text-center">
-        <div class="card bg-primary">
+        <div class="card bg-custom">
           <div class="card-header">
             <img src="https://i.imgur.com/WkvGN29.jpg" class="rounded-circle" height="100px" width="100"/>
           </div>
           <div class="card-body">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote class="blockquote text-dark">
                 <p>You're on your own,kid. You always have been.</p>
               </blockquote>
-              <figcaption class="blockquote-footer text-white">
+              <figcaption class="blockquote-footer text-dark">
                 Indah Bella Pratiwi <cite title="Source Title">Universitas Diponegoro - Oseanografi</cite>
               </figcaption>
             </figure>
