@@ -32,7 +32,7 @@ components.html("""
 <div class="col-12" style="backgournd:rgb(14, 17, 23)">
   <p class="h5">Cara Penggunaan Aplikasi :</p>
   <ol>
-    <li>Buka website XXXXXXXXXXXXXXXXX</li>
+    <li>Buka website <a href="https://pdx-ray.streamlit.app/">https://pdx-ray.streamlit.app/</a></li>
     <li>Masukkan foto / hasil gambar X-Ray pada tombol "Upload Image" yang tersedia pada website</li>
     <li>Tunggu proses berlangsung</li>
     <li>Aplikasi akan mengeluarkan hasil diagnosis penyakit sesuai dengan gambar yang diinputkan</li>
